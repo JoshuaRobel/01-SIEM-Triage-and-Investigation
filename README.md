@@ -61,11 +61,11 @@ The objective of this lab is to demonstrate:
 
 ## 📂 Repository Structure
 
-investigations/
-playbooks/
-iocs/
-screenshots/
-SOC-Framework.md
+- investigations
+- playbooks
+- iocs
+- screenshots
+- SOC-Framework.md
 
 ---
 
