@@ -59,8 +59,6 @@ Each investigation includes:
 # 📂 Repository Structure
 
 - investigations
-- playbooks
-- iocs
 - screenshots
 - SOC-Framework.md
 
