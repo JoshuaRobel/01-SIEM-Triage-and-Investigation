@@ -1,65 +1,62 @@
-# 01 — SIEM Triage and Investigation
-## Enterprise SOC Simulation Lab
+# 01 — SIEM Triage & Investigation
+## Enterprise SOC Simulation (Splunk-Based)
 
-This repository simulates an internal enterprise Security Operations Center (SOC) responsible for monitoring, triaging, investigating, and responding to security alerts across a hybrid Windows/Linux environment.
+This repository simulates a corporate Security Operations Center (SOC) responsible for monitoring, investigating, and responding to security alerts across a Windows enterprise environment using Splunk Enterprise.
 
-The objective of this lab is to demonstrate:
+The documentation follows structured internal SOC reporting standards, including:
 
-- Enterprise alert triage workflow
-- Log correlation and pivot analysis
-- Threat intelligence enrichment
+- Executive summaries
+- Severity classification
+- SLA alignment
+- Technical investigation
 - MITRE ATT&CK mapping
-- Impact assessment and risk rating
-- Escalation decision-making
-- Detection engineering feedback loop
+- Risk assessment
+- Containment and response actions
+- Detection engineering feedback
 
 ---
 
-## 🏢 Simulated Corporate Environment
+# 🏢 Simulated Corporate Environment
 
-- ~1,000 Windows endpoints
-- Hybrid Active Directory environment
-- Centralized logging (SIEM: Wazuh/ELK simulation)
-- Endpoint Detection & Response (EDR)
+- 1,000+ Windows endpoints
+- Hybrid Active Directory
+- Splunk Enterprise for centralized logging
+- EDR deployed on all endpoints
 - MFA enforced on privileged accounts
 - Perimeter firewall with geo-blocking
 
 ---
 
-## 📊 SOC Severity Matrix
+# 🚦 SOC Severity Matrix
 
 | Severity | Description | Response SLA |
 |----------|------------|--------------|
-| Low | Benign anomaly | 4 hours |
-| Medium | Suspicious activity | 30 minutes |
+| Low | Informational / benign anomaly | 4 hours |
+| Medium | Suspicious activity requiring investigation | 30 minutes |
 | High | Confirmed malicious activity | 15 minutes |
 | Critical | Active compromise | Immediate |
 
 ---
 
-## 🔎 Investigations
+# 🔎 Investigations
 
 | Case ID | Incident Type | Severity | Status |
 |---------|--------------|----------|--------|
 | SOC-2026-001 | Credential Access — Brute Force | High | Escalated |
-| SOC-2026-002 | Suspicious PowerShell Execution | High | Contained |
+| SOC-2026-002 | Execution + Command & Control | High | Contained |
 
----
+Each investigation includes:
 
-## 🔁 SOC Workflow Demonstrated
+- Structured triage workflow
+- SPL queries used
+- Evidence collection
+- Threat intelligence enrichment
+- Impact analysis
+- Response documentation
 
-1. Alert ingestion
-2. Initial triage
-3. Technical investigation
-4. Threat intelligence enrichment
-5. Impact assessment
-6. Containment
-7. Escalation (if required)
-8. Detection improvement feedback
+--
 
----
-
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 - investigations
 - playbooks
@@ -69,6 +66,7 @@ The objective of this lab is to demonstrate:
 
 ---
 
-## 🎯 Purpose
+# 🎯 Purpose
 
-This project is designed to reflect real-world corporate SOC documentation standards rather than lab-style writeups.
+This project demonstrates hands-on SOC Level 1 capability using enterprise-grade documentation standards aligned with real-world corporate SOC workflows.
+
