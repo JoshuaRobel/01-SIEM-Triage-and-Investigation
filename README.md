@@ -54,7 +54,7 @@ Each investigation includes:
 - Impact analysis
 - Response documentation
 
---
+---
 
 # 📂 Repository Structure
 
